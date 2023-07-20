@@ -1,0 +1,64 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-grow: 1;
+  position: relative; /* Add this line */
+}
+
+.background-image {
+  background-image: rgb(243, 193, 193);
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Brush Script MT";
+  font-weight: lighter;
+  font-size: 100px;
+  color: #333333;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+p {
+  text-align: center;
+  font-family: cursive;
+  font-size: 20px;
+  color: #666666;
+}
+
+.search-section {
+  position: absolute; /* Add this line */
+  top: 90px; /* Adjust the value to your desired distance from the top */
+  left: 50px; /* Adjust the value to your desired distance from the left */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.search-input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-right: 10px;
+  width: 350px;
+}
+
+.search-button {
+  padding: 10px 20px;
+  background-color: rgba(36, 34, 34, 0.5);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #011224;
+}
