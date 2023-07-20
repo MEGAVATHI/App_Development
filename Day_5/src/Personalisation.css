@@ -1,0 +1,61 @@
+.main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Brush Script MT";
+  font-weight: lighter;
+  font-size: 70px;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.image-gallery img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  margin: 10px;
+}
+
+.category-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.category-item {
+  flex-basis: calc(33.33% - 40px); /* Update flex-basis to 33.33% for three images per line */
+  margin: 30px;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+}
+
+.recipient-page {
+  text-align: center;
+}
+
+.recipient-page .image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.recipient-page .image-gallery img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  margin: 10px;
+}
