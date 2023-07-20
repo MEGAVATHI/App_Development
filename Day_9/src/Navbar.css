@@ -1,0 +1,52 @@
+.logo-container {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 20px;
+  left: 30px;
+  font-family: 'Brush Script MT';
+  position: fixed;
+  font-size: 50px;
+  color:#f31616
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgba(211, 201, 201, 0.5);
+  padding: 30px;
+  width:100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  font-size:18px;
+  font-family: cursive;
+  opacity: 0.5; 
+}
+.nav-text {
+  margin-left: 5px;
+}
+
+.navbar-nav {
+  display: flex;
+  
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin-left: 10px;
+  margin-right: 10px;
+  bottom: 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #0f0f0f;
+  padding: 5px;
+}
+
+.nav-link:hover {
+  color: #860808;
+}
