@@ -1,0 +1,111 @@
+/* Payment.css */
+
+.payment-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.payment-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+
+  background-image: url('pay.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.7; 
+}
+
+.payment-select {
+  font-size: 16px;
+  font-family: cursive;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 200px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+label {
+  font-family: cursive;
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 5px;
+  margin-right: 15px; /* Add right margin for spacing */
+}
+
+.payment-select:focus {
+  outline: none;
+  border-color: #85b0f1;
+  box-shadow: 0 0 5px #0066ff;
+}
+
+.payment-button {
+  padding: 10px 20px;
+  background-color: #0066ff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.payment-select option:hover {
+  background-color: #f5f5f5;
+}
+
+/* Add this style to position the "Select Payment Method" options a little down */
+.center-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px; /* Adjust this value as needed */
+}
+
+.payment-method-title {
+  font-size: 50px;
+  font-family: "Brush Script MT";
+  font-weight: lighter;
+  margin-bottom: 45px; /* Add some spacing below the title */
+}
+/* Payment.css */
+
+/* ... (Other existing styles) ... */
+
+.payment-select {
+  font-size: 16px;
+  font-family: cursive;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 200px;
+  margin-bottom: 10px;
+  color: #333;
+
+  /* New styles for the dropdown */
+  appearance: none;
+  background-color: #f5f5f5;
+  background-image: linear-gradient(45deg, transparent 50%, #0066ff 50%);
+  background-position: calc(100% - 12px) center;
+  background-size: 8px 8px;
+  background-repeat: no-repeat;
+  padding-right: 25px; /* Add space for the arrow icon */
+  cursor: pointer;
+}
+
+/* .payment-select::-ms-expand {
+  display: none; /* Remove the arrow icon in Internet Explorer */
+
+
+.payment-select:focus {
+  outline: none;
+  border-color: #85b0f1;
+  box-shadow: 0 0 5px #0066ff;
+}
+
+/* ... (Other existing styles) ... */

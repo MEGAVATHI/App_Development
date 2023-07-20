@@ -1,0 +1,92 @@
+.logo-container {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 20px;
+  left: 60px;
+  font-family: 'Brush Script MT';
+  position: fixed;
+  font-size: 50px;
+  color: #f31616;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgba(211, 201, 201, 0.5);
+  padding: 30px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  font-size: 18px;
+  font-family: cursive;
+  opacity: 0.5;
+}
+
+.nav-text {
+  margin-left: 5px;
+}
+
+.navbar-nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin-left: 10px;
+  margin-right: 10px;
+  bottom: 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #0f0f0f;
+  padding: 5px;
+}
+
+.nav-link:hover {
+  color: #860808;
+  text-decoration: none;
+}
+
+.dropdown-container {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.dropdown-container .MuiButtonBase-root {
+  padding: 5px;
+  margin-right: 950px;
+}
+
+.dropdown-container .MuiSvgIcon-root {
+  font-size: 24px;
+  color: #0f0f0f;
+}
+
+.dropdown-container .MuiSvgIcon-root:hover {
+  color: #860808;
+}
+
+#dropdown-menu {
+  z-index: 9999;
+  border-radius: 5px;
+}
+
+
+#dropdown-menu a {
+  text-decoration: none; 
+  font-family: 'cursive';
+  font-size: 20px;
+  /* border: 2px solid #eedcdc; 
+  border-radius: 4px; 
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);  */
+}
+
+#dropdown-menu a:hover {
+  text-decoration: none; 
+}
